@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+.login-form, .home, .user-data, .settings {
+  max-width: 70%;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form form div, .add-user-form div {
+  margin-bottom: 15px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input, .add-user-form input, .search-bar {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.login-form button, .add-user-form button, .logout-button, .user-data button {
+  padding: 10px 15px;
+  background: #28a745;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-form button:hover, .add-user-form button:hover, .logout-button:hover, .user-data button:hover {
+  background: #218838;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.home nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.home nav a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.home nav a:hover {
+  text-decoration: underline;
+}
+
+.user-data table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-data th, .user-data td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-data th {
+  background-color: #f2f2f2;
+}
+
+.user-data tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-data tr:hover {
+  background-color: #f1f1f1;
+}
+
+.user-data button {
+  margin-right: 5px;
+  background-color: #007bff;
+}
+
+.user-data button:last-child {
+  background-color: #dc3545;
+}
+
+.user-data button:hover {
+  opacity: 0.8;
+}
+
+
+.add-user-form input {
+  margin-bottom: 10px;
+}
+
+.add-user-form div {
+  display: flex;
+  gap: 10px;
+}
+
+.add-user-form input:first-child, .add-user-form input:nth-child(2) {
+  flex: 1;
+}
+
